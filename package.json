@@ -1,0 +1,27 @@
+{
+  "name": "project-course-e-commerce",
+  "version": "0.0.1",
+  "main": "src/main.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "build": "tsup",
+    "test": "vitest --config vitest.config.ts"
+  },
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "tsx": "^3.12.2",
+    "vitest": "^0.28.3"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.4"
+  },
+  "tsup": {
+    "entry": [
+      "src/main.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
+  }
+}

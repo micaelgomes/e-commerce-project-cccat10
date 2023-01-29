@@ -1,0 +1,7 @@
+node_modules/
+dist/
+diagramas/
+.vscode/
+
+
+__sqlite3__/
